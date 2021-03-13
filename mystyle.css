@@ -1,0 +1,150 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+html body {
+  width: 100%;
+  height: 100%;
+}
+.main {
+  min-height: 100vh;
+
+  background: linear-gradient(to right top, #c470d1, #70e8ea);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.glass {
+width:50%;
+height: 50rem;
+background: white;
+border-radius: 2rem;
+background:linear-gradient(to left bottom,
+rgba(255,255,255,0.5),rgba(255,255,255,0.3));
+
+}
+
+.nav img {
+  width: 4rem;
+  margin-right: 5rem;
+  padding-left: 1rem;
+  padding-top: 1.5rem;
+}
+
+.nav-text text-content {
+  list-style-type: none;
+
+}
+.login {
+  color:rgb(71, 163, 238);
+  list-style-type: none;
+  text-decoration: none;
+  padding: 1rem 7rem;
+}
+.nav-content a { 
+  color: rgb(96, 156, 204);
+  text-decoration: none;
+  list-style-type: none;
+  display: inline-block;
+  padding: 0rem 0.7rem;
+  padding-top: 0.6rem;
+ 
+}
+.nav{
+ 
+  width:100%;
+  height: 5rem;
+  background: white;
+  border-radius: 2rem;
+  background:linear-gradient(to left bottom,
+  rgba(255,255,255,0.3),rgba(255,255,255,0.3));
+   ;
+  
+ 
+  
+  font-size:18px; 
+
+  display:inline-block; 
+  transition: all 0.5s ease 0s;}
+
+  .logo { 
+    float:left;
+    
+    }
+
+  .sign-up{
+    display: inline block;
+    position: absolute;
+    top:8.9rem;
+    left: 91rem;
+    width: auto;
+ 
+
+  }
+
+  .sign-up button {
+  
+    background: white;
+    color: rgb(68, 183, 228);
+   padding: 0.61rem;
+   border-radius: 0.7rem;
+  
+    border:none;
+    
+  }
+
+
+  .content {
+    width: 30rem;
+   
+
+  }
+  .content h1{ font-size: 3rem;
+    padding: 5rem 2rem 2rem 5rem ;
+  }
+  .content p{ font-size: 2rem;
+    padding: 0rem 2rem 0rem 5rem;
+    
+  }
+
+  .body{position: relative;}
+  .imgs img{
+    display: inline-block;
+     width: 30rem;
+position:absolute;
+top: 5rem;
+left: 34rem;
+}
+.button  {
+  padding: 2rem 2rem 0rem 5rem;
+
+}
+.button button{
+  width: 8rem;
+  height: 3rem;
+  border-radius: 0.71rem;
+  
+}
+
+.subsribe{margin: 0.9rem;
+  background: rgb(103, 209, 241);
+  border: 0.1rem solid 
+  rgb(164, 180, 209) ;
+  color: rgb(245, 241, 241);
+}
+.browse-3d{
+  background: white;
+  color: rgb(68, 183, 228);
+ 
+  border: 0.1rem solid 
+  rgb(164, 180, 209) ;
+  
+}
+
