@@ -8,7 +8,8 @@ html {
   font-size: 62.5%;
 }
 body {
-  background: rgb(231, 231, 231);
+  background-image: url("img/Google_Assistant_logo.png");
+  background-color: #d0a8d8;
 }
 
 /*header-----------------------------------*/
